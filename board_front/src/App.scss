@@ -1,0 +1,27 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+
+  .app-header {
+    display: flex;
+    flex-direction: column;
+    .navigator {
+      padding: 10px;
+      display: flex;
+      justify-content: flex-end;
+      a{
+        text-decoration: none;
+        color: white;
+        margin: 0 5px;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+    }
+    background-color: cornflowerblue;
+  }
+  .app-body {
+    flex: 1;
+  }
+}

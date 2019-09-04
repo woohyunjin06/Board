@@ -1,0 +1,48 @@
+.login_container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: cornflowerblue;
+
+  .login_element_container {
+    box-shadow: 0 5px 10px 0 #3b578c;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    padding: 30px 30px 15px 30px;
+
+    input {
+      margin: 5px 0;
+      padding-left: 5px;
+      border: none;
+      background: #eaeaea;
+      height: 40px;
+      width: 100%;
+    }
+
+    button {
+      color: white;
+      margin: 5px 0;
+      background: cornflowerblue;
+      height: 40px;
+      width: 100%;
+    }
+
+    .plz_register {
+      margin-top: 15px;
+      color: gray;
+      align-self: center;
+      display: flex;
+      .plz_register_highlight{
+        cursor: pointer;
+        margin-left: 5px;
+        color: cornflowerblue;
+      }
+      .plz_register_highlight:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
